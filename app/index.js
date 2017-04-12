@@ -1,30 +1,32 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+let React = require('react');
+let ReactDOM = require('react-dom');
 
 
-var Listing = React.createClass({
+let Listing = React.createClass({
 
-    render: function () {
-        var family2 = this.props.names.map(function(family){
-            return <li>{family}</li>;
-        });
+  render: function () {
+    let family2 = this.props.names.map(function (family) {
+      return <li>{family}</li>;
+    });
 
-        return (
-            <div><ul> {family2} </ul></div>
-        )
-    }
+    return (
+        <div>
+          <ul> {family2} </ul>
+        </div>
+    )
+  }
 });
 
-var Hello = React.createClass({
-    render: function () {
-        var family = ['mike','andrea','derek'];
-        return (
-            <div>
-                Testing React, {this.props.name}
-                <Listing names={family} />
-            </div>
-        )
-    }
+let Hello = React.createClass({
+  render: function () {
+    let family = ['mike', 'andrea', 'derek'];
+    return (
+        <div>
+          Testing React, {this.props.name}
+          <Listing names={family}/>
+        </div>
+    )
+  }
 });
 
-ReactDOM.render(<Hello name="this is a prop" />, document.getElementById('app'));
+ReactDOM.render(<Hello name="this is a prop"/>, document.getElementById('app'));

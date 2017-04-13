@@ -1,4 +1,12 @@
 node_modules/
-./idea/
-./idea/workspace.xml
 *.log
+./idea
+<<<<<<< HEAD
+<<<<<<< HEAD
+.idea
+=======
+./idea/workspace.xml
+>>>>>>> e0849a4... .idea removal
+=======
+.idea
+>>>>>>> 39ea2c6... Squash junk commits

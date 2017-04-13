@@ -1,16 +1,3 @@
 node_modules/
 *.log
-./idea
-<<<<<<< HEAD
-<<<<<<< HEAD
-.idea
-=======
-./idea/workspace.xml
->>>>>>> e0849a4... .idea removal
-=======
-.idea
-<<<<<<< HEAD
->>>>>>> 39ea2c6... Squash junk commits
-=======
->>>>>>> eef8dc9c151011dd115e36d01a64801b7694ee7c
->>>>>>> 361a93feb48b4e8990bd29b4790fd4b512dab938
+.idea/

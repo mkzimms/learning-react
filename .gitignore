@@ -1,4 +1,8 @@
 node_modules/
 *.log
 ./idea
+<<<<<<< HEAD
 .idea
+=======
+./idea/workspace.xml
+>>>>>>> e0849a4... .idea removal

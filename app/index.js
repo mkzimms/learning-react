@@ -5,13 +5,13 @@ let ReactDOM = require('react-dom');
 let Listing = React.createClass({
 
   render: function () {
-    let family2 = this.props.names.map(function (family) {
-      return <li>{family}</li>;
+    let family2 = this.props.names.map(function (family, idx) {
+      return <li key={idx}>{family}</li>;
     });
 
     return (
         <div>
-          <ul> {family2} </ul>
+          <ul>{family2}</ul>
         </div>
     )
   }

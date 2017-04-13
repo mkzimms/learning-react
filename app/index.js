@@ -11,7 +11,7 @@ let Listing = React.createClass({
 
     return (
         <div>
-          <ul> {family2} </ul>
+          <ul>{family2}</ul>
         </div>
     )
   }
